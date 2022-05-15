@@ -32,7 +32,6 @@ const PlanetListPage = (props) => {
 
     const onChange = () => {
         setSearch(input.current.value)
-        console.log(PlanetSearchList)
         searchEngine()
     }
 
