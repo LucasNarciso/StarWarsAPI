@@ -40,16 +40,18 @@ const PlanetListPage = (props) => {
     const searchEngine = () => {
         if (Search === "") {
             setPlanetaPesquisa(PlanetList)
+        }else{
+            const planetasPesquisa = PlanetList.filter((planet) => {
+                console.log(planet.name + " = " + Search)
+                return planet.name === Search || planet.climate === Search || planet.population === Search || planet.terrain === Search
+            })
+            setPlanetaPesquisa(planetasPesquisa)
         }
-        const planetasPesquisa = PlanetList.filter((planet) => {
-            return Search === PlanetList.name;
-        })
-        console.log(PlanetList.name)
 
-        setPlanetaPesquisa(planetasPesquisa)
+        
     }
 
-    const renderizarPlanetas = PlanetList.map((planet) =>{
+    const renderizarPlanetas = PlanetSearchList.map((planet) =>{
         return <PlanetItemList key={planet.url} function={props.func.bind(this)} planeta={planet} url={planet.url}></PlanetItemList>
     })
 
