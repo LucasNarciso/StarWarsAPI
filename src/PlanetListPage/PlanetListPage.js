@@ -10,7 +10,6 @@ const PlanetListPage = (props) => {
     const [PlanetList, setPlaneta] = useState([])
     const [PlanetSearchList, setPlanetaPesquisa] = useState([])
     const [Search, setSearch] = useState("")
-    const [Contador, setContator] = useState(0)
     const BaseURL  = 'https://swapi.dev/api/planets';
     const input = React.createRef();
 
