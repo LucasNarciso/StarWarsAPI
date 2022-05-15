@@ -40,7 +40,6 @@ const PlanetListPage = (props) => {
             setPlanetaPesquisa(PlanetList)
         }else{
             const planetasPesquisa = PlanetList.filter((planet) => {
-                console.log(planet.name + " = " + Search)
                 return planet.name === Search || planet.climate === Search || planet.population === Search || planet.terrain === Search
             })
             setPlanetaPesquisa(planetasPesquisa)
