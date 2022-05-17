@@ -15,6 +15,7 @@ const PlanetListPage = (props) => {
 
     useEffect(() => {
         getPlanetsList();
+        searchEngine();
     }, [])
 
     const getPlanetsList = () => {
@@ -30,9 +31,12 @@ const PlanetListPage = (props) => {
         })
     }
 
+    useEffect(() => {
+        searchEngine();
+    }, [Search])
+    
     const onChange = () => {
         setSearch(input.current.value)
-        searchEngine()
     }
 
     const searchEngine = () => {
@@ -44,7 +48,6 @@ const PlanetListPage = (props) => {
             })
             setPlanetaPesquisa(planetasPesquisa)
         }
-
         
     }
 

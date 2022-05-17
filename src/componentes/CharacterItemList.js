@@ -23,7 +23,7 @@ const CharacterItemList = (props) => {
 
 
     return(
-        <DivNome onClick={() => {props.function("detalhePersonagem", props.personagem.url)}}>
+        <DivNome onClick={() => {props.function("Detalhes do Personagem", props.personagem.url)}}>
             <br/>
             <div>{props.personagem.name}</div>
         </DivNome>

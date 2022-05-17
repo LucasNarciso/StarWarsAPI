@@ -13,9 +13,6 @@ export const BotaoPrincipal = styled.button`
         transform: scale(1.1);
     }
 `
-export const ImgBotaoPrincipal = styled.img`
-    width: 9em;
-`
 
 export const Background = styled.div`
     display: flex;
@@ -79,4 +76,13 @@ export const BotaoVoltar = styled.div`
         cursor: pointer;
         transform: scale(1.1);
     }
+`
+
+export const Selection = styled.div`
+    height: 2em;
+    width: 20em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
 `

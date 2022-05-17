@@ -30,9 +30,6 @@ const CharacterDetailPage = (props) => {
         console.log(err.menssage)
       })
     }
-    
-    console.log("CHARACTER : ")
-    console.log(Character)
 
     return(
         <>

@@ -30,9 +30,6 @@ const PlanetDetailPage = (props) => {
         console.log(err.menssage)
       })
     }
-    
-    console.log("PLANET : ")
-    console.log(Planet)
 
     return(
         <>

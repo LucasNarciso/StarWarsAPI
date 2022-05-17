@@ -23,7 +23,7 @@ const PlanetItemList = (props) => {
 
 
     return(
-        <DivNome onClick={() => {props.function("detalhePlaneta", props.planeta.url)}}>
+        <DivNome onClick={() => {props.function("Detalhes do Planeta", props.planeta.url)}}>
             <br/>
             <div>{props.planeta.name}</div>
         </DivNome>
