@@ -8,7 +8,7 @@
 <h4> Esse é um projeto da faculdade onde eu utilizo uma API da saga Star Wars para mostrar várias informações sobre os personagens e planetas. </h4>
 
 ![image](https://user-images.githubusercontent.com/71471494/168901003-9d322b52-5fc5-4b39-b481-e339003313fc.png)
-![image]("https://user-images.githubusercontent.com/71471494/168905100-ae885da5-8466-4d33-9260-4b506906f909.png)
+![image](https://user-images.githubusercontent.com/71471494/168905100-ae885da5-8466-4d33-9260-4b506906f909.png)
 <!-- <img height="220em" src="https://user-images.githubusercontent.com/71471494/168905382-5510b2e1-c610-4745-b913-04356f22c9f6.png">-->
 
 
