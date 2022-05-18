@@ -1,13 +1,19 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+
+//COMPONENTES
 import CharacterItemList from "../componentes/CharacterItemList";
+
+//STYLED-COMPONENTS
 import { BotoesPagina, Paginas, NumeroPagina } from "./CharacterListPageStyle";
+
+//CONSTANTES
+import { BaseURL } from "../constants/consts";
 
 const CharacterListPage = (props) => {
 
     const [CharacterList, setCharacterList] = useState([]);
     const [CharacterData, setCharacterData] = useState([]);
-    const BaseURL  = 'https://swapi.dev/api/people';
     const [pageURL, setPageURL] = useState("");
     const [numPagina, setNumPagina] = useState(1);
 
